@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="images/logo1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(160, 169, 241);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="images/logo1.png"><img src="images/logo1.png" alt="" width="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"   aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 <b>Courses</b> 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                  <li><a class="dropdown-item" href="#">React.js</a></li>
+                  <li><a class="dropdown-item" href="#">Node.js</a></li>
+                  <li><a class="dropdown-item" href="#">MongoDB</a></li>
+                  <li><a class="dropdown-item" href="#">Web Devlopment </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li> <a class="dropdown-item"  href="#">Full Stack</a> </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>About</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-disabled="true"><b>Contac Us &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </b></a>
+              </li>
+              <li> <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 400px;">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form></li>
+            </ul>
+            
+            <button class="btn  btn-outline-light btn-success" style="width: 150px;">Register</button>
+            <button class="btn  btn-outline-light btn-secondary" style="width: 100px;" >Login</button>
+          </div>
+        </div>
+      </nav>
+
+     <!-- slider -->
+     <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slide1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Web Development</h5>
+              <p>Create Websit Using MERN Stack</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Frontend Development</h5>
+              <p>HTML, CSS, Bootstrap, JavaScript, React</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Data Base</h5>
+              <p>SQL- MySQL and NOSQL - MongoDB</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-warning">
+              <h5 >Backend development</h5>
+              <p >Using Node.js, Express.js and MongoDB</p>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+      <div class="container-fluid">
+        <!-- tagline -->
+        <div class="row">
+          <div class="col-12 display-6 text-center mt-5 mb-2">
+            <h3>"Join Us on the Journey to Intellectual Enlightenment"</h3>
+          </div>
+        </div>
+        <!-- features -->
+        <div class="row justify-content-evenly pt-3 pb-2">
+          <div class="col-md-3 text-center mt-5">
+            <h1><i class="bi bi-file-code-fill text-primary"></i></h1>
+            <h5>For frontend developer</h5>
+            <p>You can create Front end part of any project using HTML,CSS and JavaScriot this is fundamental thing which is necessary to create web pages</p>
+          </div>
+          <div class="col-md-3 text-center mt-5">
+            <h1><i class="bi bi-database-fill-add text-danger"></i></h1>
+            <h5>Data Base</h5>
+            <p>Data base is required when we are work on full stack project. Here we are learn about MySQL and MongoDB data base </p>
+          </div>
+          <div class="col-md-3 text-center mt-5">
+            <h1><i class="bi bi-calendar-range-fill text-success"></i></h1>
+            <h5>Build for developer</h5>
+            <p>Backend is harder then the frontend becouse of we are handle all the data and database . we are using node.js, express.js and MongoDB for backend development</p>
+          </div>
+        </div>
+        <hr>
+        <!-- growth -->
+        <div class="row justify-content-evenly pt-3 pb-5">
+          <div class="col-md-5 pt-3">
+            <img src="images/progress.png" class="img-fluid" alt="" style="height: 360px;">
+          </div>
+          <div class="col-md-5 pt-3">
+            <h5 class="mt-3">App devlopment</h5>
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-success" style="width: 25%">25%</div>
+            </div>
+             
+            <h5 class="mt-3">Web Development</h5>
+            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+            </div>
+
+            <h5 class="mt-3">Software Development</h5>
+            <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+            </div>
+
+            <h5 class="mt-3">SEO</h5>
+            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-danger" style="width: 90%">90%</div>
+            </div>
+            <h5 class="mt-3">Marketing</h5>
+            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-primary" style="width: 100%">100%</div>
+            </div>
+          </div>
+        </div>
+        <!-- contact start -->
+
+        <div class="row justify-content-evenly pt-1 pb-2" style="background-color: #f1f1f1;" >
+          <div class="col-md-5 mt-5">
+            <h3 class="mb-4 text-warning">Have any query fill this form</h3>
+
+            <form>
+              <div class="mb-2">
+                <label for="name" class="form-label"><b>Full Name</b></label>
+                <input type="email" class="form-control" id="name" placeholder="Enter your name">
+               
+              </div>
+              <div class="mb-2">
+                <label for="exampleInputEmail1" class="form-label"><b>Email address</b></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"><b>Drop your query</b> </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-5 mt-5">
+            <h3 class="md-4">Address</h3>
+            <p>119 new panchsil nagar, Mushakedi <br>
+            Indore, India-102349 <br>
+            <i class="bi bi-telephone-fill"></i> : 909-864-0096
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7361.436802620084!2d75.87328678873585!3d22.70152451528816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fce061d739d5%3A0x2adf6b21718f7796!2sNavlakha%2C%20Indore%2C%20Madhya%20Pradesh%20452001!5e0!3m2!1sen!2sin!4v1708420403446!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+          </div>
+        </div>
+      <!-- faq -->
+         <div class="row justify-content-evenly pt-5 pb-5">
+          <div class="col-md-10">
+            <h3 class="text-center pb-4">FAQ <svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+            </svg></h3>
+
+            <div class="accordion accordion-flush border" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    It is company or institute ?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Time to Study is a platform where you can learn web development like frontend, backend  and React developement, so this is not a company or intstitute. </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Are you provide certificate ?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">No we are not provide any type of certificate like course complitation and other .</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Any charges ?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">No, we are not charge this is free of cost .</div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <!-- footer -->
+         <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+          <div class="col-md-3 pt-4">
+            <h5 class="pb-2">Time To Study</h5>
+            <p>"Learning is never done without error, and defeat " – Vladimir Lenin <br>"Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning."-Albert Einstien</p>
+
+          </div>
+          <div class="col-md-3 pt-4">
+            <h5 class="pb-2">Links</h5>
+            <p> 
+              <a href="#" class="link-light text-decoration-none">Home</a><br>
+              <a href="#" class="link-light text-decoration-none">Our Team</a><br>
+              <a href="#" class="link-light text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+              </svg> : https://github.com/Gopalbagwan</a><br>
+              <a href="#" class="link-light text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+              </svg> : www.linkedin.com/in/gopal-bagwan</a><br>
+          
+            </p>
+          </div>
+          <div class="col-md-3 pt-4">
+            <h5>Contact Us</h5>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg> : 119 new panchsil nagar, Mushakedi <br>
+              Indore, India-102349 <br>
+              <i class="bi bi-telephone-fill"></i> : 909-864-0096 <br>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+                <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
+              </svg> : gopalbagwa@gmail.com
+            </p>
+          </div>
+         </div>
+         <!-- copyright -->
+         <div class="row">
+          <div class="col-12 bg-secondary text-white text-center pt-2">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503"/>
+            </svg>Copyright 1999-2024 by Time to Study All Rights Reserved</p>
+           </div>
+         </div>
+        <!-- container end -->
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
